@@ -1,23 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(12, 12, 65);
     color: aliceblue;
 }
 
-.topo{
+.topo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -25,87 +25,86 @@ body{
     font-weight: bold;
 }
 
-.logo img{
+.logo img {
     width: 40px;
 }
 
-.menu ul{
+.menu ul {
     list-style: none;
     display: flex;
     gap: 30px;
     margin-right: 20px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: white;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: rgb(240, 153, 40);
 }
 
-.hero{
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 60px 50px;
 }
 
-.hero-text{
+.hero-text {
     max-width: 50%;
     margin-left: 100px;
 }
 
-.hero-text h1{
+.hero-text h1 {
     font-size: 50px;
     font-weight: bold;
+    text-align: center;
 }
 
-.hero-text p{
-    margin: 15px 0 30px;
+.hero-text p {
+    margin: 50px auto;
     font-size: 20px;
     color: #ccc;
     text-transform: capitalize;
+    text-align: justify;
+    line-height: 1.8;
 }
 
 .btn {
-  display: inline-block;
-  padding: 12px 25px;
-  background: #0066ff;
-  color: white;
-  border-radius: 8px;
-  font-weight: bold;
-  text-decoration: none;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #0066ff;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .btn:hover {
-  background: #004fcc;
+    background: #004fcc;
 }
 
-.hero-img img {
-  width: 300px;
-  background-color: rgb(0, 0, 0);
-  border-radius: 100%;
-  margin-right: 100px;
+.hero-text h2 {
+    font-size: 30px;
+    margin-bottom: -40px;
+    margin-top: 20px;
+    text-align: center;
 }
 
-.about {
-  text-align: center;
-  padding: 50px;
-  margin-top: -50px;
+.hero-text hr {
+    margin-top: 60px;
+    background-color: yellow;
+    border: none;
+    height: 5px;
+    width: 100%;
+    margin: 20px auto;
 }
 
-.about h2 {
-  font-size: 28px;
-  margin-bottom: 15px;
-}
-
-.about p {
-text-align: center;
-word-break: break-all;
-white-space: normal;
-max-width: 600px;
-margin: 0 auto;
-text-transform: capitalize;
+.hero-text h3 {
+    font-size: 30px;
+    margin-bottom: -40px;
+    margin-top: 20px;
+    text-align: center;
 }
